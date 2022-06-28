@@ -55,7 +55,7 @@ ROOT_URLCONF = 'mvtjuanpablomedina.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'D:\Juan Pablo\Coderhouse\Mi primer MVT\templates'],
+        'DIRS': [r'D:\Juan Pablo\Coderhouse\MVT-Juan-Pablo-Medina\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

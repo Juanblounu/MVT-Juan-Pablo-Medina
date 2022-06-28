@@ -15,7 +15,7 @@ def listado_familiares(request):
     
     template = loader.get_template('listado_familiares.html')
     
-    familiar = Familiar(nombre = 'Juan', edad = 16)   
+    familiar = Familiar(nombre = 'Valentina', edad = 20, fecha_creacion = "2001-10-12")   
     familiar.save()
     
     lista_familiares = Familiar.objects.all()
