@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import listado_familiares
+from .views import listado_familiares, inicio
 
 urlpatterns = [
-    path('', listado_familiares),
+    path('', inicio),
+    path('listado-familiares/', listado_familiares),
 ]

@@ -7,6 +7,10 @@
     <title>Familiares UwU</title>
 </head>
 <body>
-    <h1>Hola Cómo estás</h1>
+    <h1>Listado familiares</h1>
+    
+    {% for familiar in lista_familiares %}
+    <li>Nombre: {{familiar.nombre}} - Edad: {{familiar.edad}} - Fecha de nacimiento: {{familiar.fecha_nacimiento}}</li>
+    {% endfor %}
 </body>
 </html>
